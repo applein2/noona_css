@@ -1,0 +1,29 @@
+.box {
+    border: 50px solid red;
+    padding: 50px;
+    margin: 20px;
+    width: 200px;
+}
+
+.box-green {
+    display: inline-block;
+    border: 50px solid #2c3e50;
+    padding: 50px;
+    margin: 20px;
+    width: 200px;
+    /* 해당 요소의 크기만큼 공백이 생기는 것처럼 보임, 사용자 눈에는 보이지 않음 */
+    /* visibility: hidden; */
+    /* 해당 요소가 차지하는 공간도 사라지며 보이지 않음 */
+    /* display: none; */
+}
+
+.box-green:hover {
+    visibility: hidden;
+}
+
+.box-blue {
+    border: 50px solid blue;
+    padding: 50px;
+    margin: 20px;
+    width: 200px;
+}
